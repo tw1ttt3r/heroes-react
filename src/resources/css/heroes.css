@@ -1,0 +1,26 @@
+.Hero {
+  display:flex;
+  height: auto;
+  margin: 4rem;
+  flex-direction: column;
+  padding: 2rem;
+  color: rgb(255, 255, 255); 
+}
+
+.Hero-Batman{
+  background-color: rgb(0, 0, 0);
+}
+
+.Hero-Deadpool{ 
+  background-color: rgb(226, 11, 11);
+  color: black;
+}
+
+.Hero-Superman{
+  background-color: rgb(8, 113, 173);
+  color: black;
+}
+
+a {
+  color: white;
+}
