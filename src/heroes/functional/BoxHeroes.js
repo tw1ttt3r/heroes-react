@@ -1,12 +1,12 @@
-import Heroes from "./Heroes"
-import imageBatman from "../resources/img/batman.jpeg";
-import imageSuperman from "../resources/img/superman.webp";
-import imageDeadpool from "../resources/img/deadpool.webp";
-import "../resources/css/heroes.css";
+import Heroes from "../classes/Heroes"
+import imageBatman from "../../resources/img/batman.jpeg";
+import imageSuperman from "../../resources/img/superman.webp";
+import imageDeadpool from "../../resources/img/deadpool.webp";
+import "../../resources/css/heroes.css";
 
 function BoxHeroes() {
   return (
-    <section style={{width: "960px"}}>
+    <section style={{width: "480px"}}>
       <Heroes
         className="Hero Hero-Batman"
         nombreSuper="Batman"
